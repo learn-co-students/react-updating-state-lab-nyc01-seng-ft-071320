@@ -4,8 +4,7 @@
 
 In this lab, you'll update state using `setState()`. After running `npm install`
 and `npm start`, you'll see that this app is not currently working. Your task is
-to build and export two components. These components are unrelated except in
-that they but will use `setState()` to update their internal state.
+to build and export two components. These components are unrelated except in that they will use `setState()` to update their internal state.
 
 ## World Record Click Counter
 
@@ -25,8 +24,7 @@ initially defined as 0.
 3. The component renders out a button with a label that shows the `timesClicked`
 value. This means that, at the start, your button should just say `0`.
 
-4. Whenever the button is clicked, update the state by incrementing the
-`timesClicked` by 1.
+4. Whenever the button is clicked, update the state by incrementing the `timesClicked` by 1.
 
 **HINT**: At the moment, `src/index.js` is trying to import `DigitalClicker` _and_ the next component, `YouTubeDebugger`. To be able
 to see your progress as you build out `DigitalClicker`, you can comment
